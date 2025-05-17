@@ -6,6 +6,8 @@ Este es un bot básico para Twitch que responde a comandos simples en el chat.
 ## Funcionalidades
 - Responde a !hola con un saludo personalizado.
 - Responde a !ayuda listando comandos disponibles.
+- Responde con tus redes sociales
+- Y más...
 
 ## Configuración
 1. Instalar dependencias:
