@@ -1,5 +1,5 @@
 
-// Bot Twitch/Discord básico simplificado para uso público
+// Bot Twitch básico para tu lindo canal <3
 // Versión pública para GitHub, creado por  andre._e on discord
 
 const tmi = require('tmi.js');
