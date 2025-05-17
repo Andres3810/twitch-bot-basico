@@ -19,9 +19,9 @@ npm install tmi.js
 
 4. Ejecutar el bot con:
 ```
-node bot.js
+node bot_twitch.js
 ```
 
 ## Notas
 - Esta versión es simplificada y sin datos privados ni comandos específicos.
-- Para usos avanzados, personaliza el código según tus necesidades.
+- Para uso avanzado, puedes agregarle más lineas al código sin problemas. Si quieres algo mejor sin hacer mucho, estate atento a mi perfil, actualizaré el código a menudo <3.
