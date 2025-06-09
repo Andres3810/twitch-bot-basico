@@ -23,11 +23,11 @@ const tmi = require('tmi.js');
 // Configuración básica del bot
 const opts = {
   identity: {
-    username: 'YourBotUsername',
-    password: 'oauth:your_oauth_token_here'  // Para uso público, pedirán configurar esto. Asegurate de usarlo en la cuenta que se vaya a usar como bot
+    username: 'YourBotUsername', // Acá tenés que poner el nombre de la cuenta que vayas a usar como bot de tu canal.
+    password: 'oauth:your_oauth_token_here'  // Para uso público, te pedirán configurar esto. Asegurate de usarlo en la cuenta que se vaya a usar como bot
   },
   channels: [
-    'channelname' // Cambiar al canal deseado
+    'channelname' // Cambiar al canal deseado, ej: elmafia19
   ]
 };
 
