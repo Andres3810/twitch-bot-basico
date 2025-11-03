@@ -10,7 +10,7 @@
  * #   ##     ## ##    ##  ########  ##     ## ########     #
  * #                                                        #
  * #           Bot Twitch básico para tu lindo canal <3     #
- * #                Versión 2.0 - ¡Más "Chill"!             #
+ * #                Versión 2.0 - tipo optimus prime           #
  * #                                                        #
  * ##########################################################
  */
