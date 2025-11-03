@@ -1,4 +1,3 @@
-
 # Twitch Bot Básico
 
 Este es un bot básico para Twitch que responde a comandos simples en el chat.
@@ -15,7 +14,7 @@ Este es un bot básico para Twitch que responde a comandos simples en el chat.
 
 2. Instalar dependencias:
 ```
-npm install tmi.js
+npm install
 ```
 
 3. Configurar usuario y token OAuth en `opts.identity`.
