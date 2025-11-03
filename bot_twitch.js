@@ -4,7 +4,7 @@
  * #      ###    ##    ##  ########  ########  ########     #
  * #     ## ##   ###   ##  ##     ## ##     ## ##           #
  * #    ##   ##  ####  ##  ##     ## ##     ## ##           #
- * #   ##     ## ## ## ##  ##     ## ########  ######       #              
+ * #   ##     ## ## ## ##  ##     ## ########  ######       #
  * #   ######### ##  ####  ##     ## ##   ##   ##           #
  * #   ##     ## ##   ###  ##     ## ##    ##  ##           #
  * #   ##     ## ##    ##  ########  ##     ## ########     #
@@ -70,7 +70,7 @@ async function onMessageHandler(channel, userstate, message, self) {
   // Separar el comando de los argumentos
   // Ej: "!abrazar @andres" -> command = '!abrazar', args = ['@andres']
   const [command, ...args] = msg.split(' ');
-  
+
   // --- Cooldown Check
   // Creamos una clave única por usuario y comando
   const cooldownKey = `${userstate.username}:${command}`;
@@ -156,7 +156,7 @@ async function onMessageHandler(channel, userstate, message, self) {
   // --- Añadir Cooldown ---
   // Añadir al usuario y comando al set de cooldown
   onCooldown.add(cooldownKey);
-  
+
   // Quitar del cooldown después de 5 segundos (5000 ms)
   setTimeout(() => {
     onCooldown.delete(cooldownKey);
@@ -193,5 +193,5 @@ function onRaidHandler(channel, username, viewers) {
 //   }
 //   break;
 //
-// así queda mejor 
+// así queda mejor
 //
