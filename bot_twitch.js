@@ -58,8 +58,7 @@ async function onMessageHandler(channel, userstate, message, self) {
   // Convertir todo a minúsculas y quitar espacios extra
   const msg = message.trim().toLowerCase();
 
-  // --- Detector de palabras con msg
-include) ---
+  // --- Detector de palabras con msg include) ---
   if (msg.includes('¿cómo estás?') || msg.includes('como estas')) {
     client.say(channel, `@${userstate.username} ¡Estoy funcionando perfectamente! Gracias por preguntar.`);
   }
