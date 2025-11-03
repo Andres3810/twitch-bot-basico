@@ -1,0 +1,24 @@
+{
+  "name": "twitch-bot-basico",
+  "version": "1.0.0",
+  "description": "Este es un bot básico para Twitch que responde a comandos simples en el chat.",
+  "main": "bot_twitch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres3810/twitch-bot-basico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Andres3810/twitch-bot-basico/issues"
+  },
+  "homepage": "https://github.com/Andres3810/twitch-bot-basico#readme",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}

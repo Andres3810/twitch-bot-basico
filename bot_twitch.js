@@ -4,7 +4,7 @@
  * #      ###    ##    ##  ########  ########  ########     #
  * #     ## ##   ###   ##  ##     ## ##     ## ##           #
  * #    ##   ##  ####  ##  ##     ## ##     ## ##           #
- * #   ##     ## ## ## ##  ##     ## ########  ######       #              
+ * #   ##     ## ## ## ##  ##     ## ########  ######       #
  * #   ######### ##  ####  ##     ## ##   ##   ##           #
  * #   ##     ## ##   ###  ##     ## ##    ##  ##           #
  * #   ##     ## ##    ##  ########  ##     ## ########     #
@@ -58,8 +58,7 @@ async function onMessageHandler(channel, userstate, message, self) {
   // Convertir todo a minúsculas y quitar espacios extra
   const msg = message.trim().toLowerCase();
 
-  // --- Detector de palabras con msg
-include) ---
+  // --- Detector de palabras con msg include) ---
   if (msg.includes('¿cómo estás?') || msg.includes('como estas')) {
     client.say(channel, `@${userstate.username} ¡Estoy funcionando perfectamente! Gracias por preguntar.`);
   }
@@ -71,7 +70,7 @@ include) ---
   // Separar el comando de los argumentos
   // Ej: "!abrazar @andres" -> command = '!abrazar', args = ['@andres']
   const [command, ...args] = msg.split(' ');
-  
+
   // --- Cooldown Check
   // Creamos una clave única por usuario y comando
   const cooldownKey = `${userstate.username}:${command}`;
@@ -157,7 +156,7 @@ include) ---
   // --- Añadir Cooldown ---
   // Añadir al usuario y comando al set de cooldown
   onCooldown.add(cooldownKey);
-  
+
   // Quitar del cooldown después de 5 segundos (5000 ms)
   setTimeout(() => {
     onCooldown.delete(cooldownKey);
@@ -194,5 +193,5 @@ function onRaidHandler(channel, username, viewers) {
 //   }
 //   break;
 //
-// así queda mejor 
+// así queda mejor
 //

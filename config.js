@@ -11,9 +11,9 @@ module.exports = {
   // Identidad del bot
   identity: {
     username: 'YourBotUsername', // Nombre de la cuenta del bot
-    password: 'oauth:your_oauth_token_here'  // Token OAuth de la cuenta del bot
+    password: 'your_oauth_token_here'  // Token OAuth de la cuenta del bot
   },
-  
+
   // Canal al que se unirá el bot, pueden ser varios.
   channels: [
     'channelname' // Tu canal principal
